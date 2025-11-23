@@ -53,7 +53,7 @@ with open(IP_PORT_FILE, 'w') as port_file, open(IP_ONLY_FILE, 'w') as ip_file:
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # 根据网站的不同结构找到包含IP地址的元素
-            if url in ['https://api.uouin.com/cloudflare.html','https://ip.164746.xyz','https://ip.haogege.xyz/']:
+            if url in ['https://api.uouin.com/cloudflare.html','https://ip.164746.xyz','https://ip.haogege.xyz']:
                 elements = soup.find_all('td')
             else:
                 elements = soup.find_all('li')

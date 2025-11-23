@@ -2,6 +2,7 @@
 IPV4<br>
 https://api.uouin.com/cloudflare.html<br>
 https://ip.164746.xyz<br>
+https://ip.haogege.xyz<br>
 
 IPv6<br>
 https://www.wetest.vip/page/cloudflare/address_v6.html<br><br>
